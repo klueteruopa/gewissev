@@ -1,0 +1,136 @@
+@import "_variables";
+
+.opener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+
+          .text {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              margin: 2rem 0rem 1rem 0rem;
+
+              p {
+                  margin: 1rem 0rem;
+                  text-align: center;
+                  font-size: 1.2rem;
+                  line-height: 1.6rem;
+                  width: 90%;
+                }
+
+              p:nth-child(1) {
+
+                span {
+                  position: relative;
+                  margin-right: 1rem;
+                  white-space: nowrap;
+                }
+        
+                span:after {
+                  content: "";
+                  position: absolute;
+                  bottom: -15px;
+                  left: 20%;
+                  height: 60px;
+                  width: 60%;
+                  border: solid 5px $main-red;
+                  border-color: transparent transparent $main-red transparent;
+                  border-radius: 50%;
+                }
+              }
+
+            p:nth-child(2) {
+              span {
+                background: $sub-blue;
+                padding: 0rem 0.5rem;
+              }
+            }
+
+            p:nth-child(3) {
+              span {
+                background: $main-yellow;
+                padding: 0rem 0.5rem;
+              }
+            }
+
+          }
+
+          .map {
+            width: 90%;
+            display: flex;
+          }
+
+          @media (min-width: $breakpoint-tablet) {
+            flex-direction: row;
+            width: $breakpoint-tablet;
+            margin-top: 4rem;
+
+            .text {
+                width: 66%;
+
+                p {
+                    width: 70%;
+                    font-size: 1.6rem;
+                    line-height: 2.0rem;
+                }
+            }
+
+            .map {
+                width: 33%;
+
+                img {
+                  width: 90%;
+                }
+
+              }
+            }
+
+          @media (min-width: $breakpoint-laptop) {
+            width: $breakpoint-laptop;
+            margin-top: 6rem;
+
+            .text {
+              p {
+                font-size: 2.0rem;
+                line-height: 2.4rem;
+              }
+            }
+          }
+
+          @media (min-width: $breakpoint-desktop) {
+            width: $breakpoint-desktop;
+            margin-top: 8rem;
+          }
+
+    }
+
+
+  }
+        
+//         .map  {
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+    
+//           img {
+//             width: 200px;
+//           }
+    
+//         }
+
+//       }
+
+//     }
+
+//   }
+// }

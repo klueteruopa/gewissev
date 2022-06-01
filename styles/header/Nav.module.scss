@@ -1,0 +1,47 @@
+@import "../_variables";
+
+.nav {
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 0 0.75rem;
+    font-family: $logo-font;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+
+    :hover {
+      text-decoration: underline wavy lightcoral;
+      text-underline-offset: 0.3rem;
+    }
+  }
+
+}
+
+@media (max-width: $breakpoint-medium) {
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      display: flex;
+      justify-content: center;
+      padding: 1.5rem 0;
+      font-size: 1.5rem;
+    }
+  }
+}

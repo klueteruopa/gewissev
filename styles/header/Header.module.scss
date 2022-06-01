@@ -1,0 +1,22 @@
+@import "../_variables";
+
+.header {
+  background: #fff;
+  height: $header-hight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $global-padding-large
+}
+
+@media (max-width: $breakpoint-medium) {
+  .header {
+    padding: $global-padding-medium
+  }
+}
+
+@media (max-width: $breakpoint-small) {
+  .header {
+    padding: $global-padding-small;
+  }
+}

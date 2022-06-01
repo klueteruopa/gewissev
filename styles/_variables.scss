@@ -1,0 +1,23 @@
+// Breakpoints
+$breakpoint-desktop: 1400px;
+$breakpoint-laptop: 1080px; 
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 375px;
+
+// Fonts
+$font-stack: 'Lexend Deca', sans-serif;
+$logo-font: 'Lexend Deca', sans-serif;
+
+// Colors
+$main-red: #ECB1B7;
+$main-blue: #E9F4F0;
+$main-yellow: rgba(255, 196, 0, 0.5);
+$sub-blue: rgba(112, 155, 227, 0.3);
+
+// Hights and Width
+$header-hight: 4rem;
+
+// Spacing
+$global-padding-large: 0 2.5rem;
+$global-padding-medium: 0 1.5rem;
+$global-padding-small: 0 0.5rem;

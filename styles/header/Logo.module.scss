@@ -1,0 +1,9 @@
+@import "../_variables";
+
+.logo {
+  font-family: $logo-font;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #000;
+  white-space: nowrap;
+}

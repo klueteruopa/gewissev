@@ -1,0 +1,12 @@
+@import "../_variables";
+
+.toggleNav {
+  z-index: 20;
+  position: fixed;
+  top: 1.2rem;
+  right: 2rem;
+  height: 2rem;
+  width: 2rem;
+  background: lightseagreen;
+  cursor: pointer;
+}

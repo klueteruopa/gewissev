@@ -1,0 +1,74 @@
+@import "_variables";
+
+.leitsatzItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    width: $breakpoint-tablet - 20px;
+    margin: 2rem 0rem;
+  }
+
+  @media (min-width: $breakpoint-laptop) {
+    width: $breakpoint-laptop - 20px;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    width: $breakpoint-desktop - 20px;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      text-align: center;
+      margin: 1rem;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+      width: 70%;
+
+      p {
+        width: 90%;
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+      }
+    }
+
+    @media (min-width: $breakpoint-laptop) {
+      p {
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+      }
+    }
+
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    > div {
+      width: 150px;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+      width: 30%;
+      margin-bottom: 0rem;
+    }
+  }
+
+}
+
+.right {
+    @media (min-width: $breakpoint-tablet) {
+      flex-direction: row-reverse;
+    }
+}

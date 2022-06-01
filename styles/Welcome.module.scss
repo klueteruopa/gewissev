@@ -1,0 +1,239 @@
+@import "_variables";
+
+$imageMobile: 8rem;
+$imageTablet: 8rem;
+$imageLaptop: 8rem;
+$imageDesktop: 8rem;
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: $main-red;
+}
+
+.welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: $main-red;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  max-width: $breakpoint-desktop;
+
+  .left {
+    position: relative;
+    display: none;
+  }
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.8em;
+      color: #fff;
+      font-weight: 900;
+
+      span {
+        text-shadow: -2px 2px #709BE3;
+      }
+    }
+  
+    h2 {
+      text-align: center;
+      font-size: 1.6em;
+      font-weight: 400;
+      margin-top: 2rem;
+  
+              span {
+                  position: relative;
+                  margin-right: 1rem;
+                  white-space: nowrap;
+                }
+              
+                span:after {
+                  content: "";
+                  position: absolute;
+                  bottom: -20px;
+                  left: 25%;
+                  height: 60px;
+                  width: 50%;
+                  border: solid 5px #709BE3;
+                  border-color: transparent transparent #709BE3 transparent;
+                  border-radius: 50%;
+                }
+    }
+  
+  }
+  
+  .right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  
+    img {
+      width: 25%;
+      margin: 3rem 0.5rem 0rem 0.5rem;
+      max-width: 100px;
+    }
+  }
+
+  /* TABLET */
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    height: 85vh;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+
+      img {
+        width: 40%;
+        min-width: 100px;
+        max-width: 200px;
+        position: absolute;
+      }
+
+      img:nth-child(1) {
+        top: 3rem;
+        left: 1rem;
+      }
+
+      img:nth-child(2) {
+        top: 40%;
+        right: 2rem;
+      }
+
+      img:nth-child(3) {
+        bottom: 10%;
+        left: 10%;
+      }
+
+      img:nth-child(4) {
+        bottom: -4rem;
+        right: -2.5rem;
+      }
+
+    }
+
+    .middle {
+        h1 {
+            font-size: 2.8em;
+
+            span {
+              text-shadow: -3px 3px #709BE3;
+            }
+        }
+        
+        h2 {
+            font-size: 2.0em;
+        }
+    }
+
+    .right {
+      flex-direction: column;
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 40%;
+        min-width: 100px;
+        max-width: 200px;
+        margin: 0px;
+      }
+
+      img:nth-child(1) {
+        top: 2rem;
+        right: 2rem;
+      }
+      
+      img:nth-child(2) {
+        top: 50%;
+        left: -1rem;
+        width: 60%;
+      }
+      
+      img:nth-child(3) {
+        bottom: -3rem;
+        right: 30%;
+      }
+
+    }
+
+  }
+
+    @media (min-width: $breakpoint-laptop) {
+      
+      .middle {
+        h1 {
+          font-size: 4rem;
+        }
+
+        h2 {
+          font-size: 2.8rem;
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      .middle {
+        h1 {
+          font-size: 6rem;
+
+          span {
+            text-shadow: -5px 5px #709BE3;
+          }
+        }
+  
+        h2 {
+          font-size: 4rem;
+        }
+      }
+    }
+
+}
+
+
+  // height: calc(100vw / 180 * 100);
+  //height: 80vh;
+
+
+    /*@media (min-width: $breakpoint-tablet) {
+        $imageMobile: 16rem;
+    }*/
+
+
+      /*div {
+        border: 1px solid blue;
+        width: $imageMobile;
+        position: absolute;
+      }
+
+      div:nth-of-type(1) {
+        top: 1rem;
+        left: 1rem;
+      }
+
+      div:nth-of-type(2) {
+        top: calc(20% + $imageMobile / 2);
+        right: -1rem;
+      }
+
+      div:nth-of-type(3) {
+        top: calc(50% + $imageMobile / 2);
+        left: 1rem;
+      }
+      
+      div:nth-of-type(4) {
+        bottom: -$imageMobile / 2;
+        right: -($imageMobile / 2) - 1rem
+      }*/
+
+

@@ -1,0 +1,60 @@
+@import "_variables";
+
+.footer {
+  background: $main-red;
+  padding: 2rem 0rem 3rem 0rem;
+  display: flex;
+  justify-content: center;
+
+  > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1rem;
+      
+      > h3 {
+        font-size: 1.2rem;
+      }
+      
+      > p {
+        font-size: 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+      }
+
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+      width: $breakpoint-tablet;
+      flex-direction: row;
+
+      > div {
+        width: 50%;
+
+        >h3 {
+          font-size: 1.6rem;
+        }
+
+        >p {
+          font-size: 1.3rem;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-laptop) {
+      width: $breakpoint-laptop;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      width: $breakpoint-desktop;
+    }
+  }
+}
