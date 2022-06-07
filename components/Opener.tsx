@@ -11,7 +11,7 @@ const Opener = () => {
                     <p>Und das in <span>Henneckenrode</span> in der Region Hildesheim.</p>
                 </div>
                 <div className={styles.map}>
-                    {/* <img alt="Standort vom Schloss Henneckenrode" src="/schloss-map.svg"/> */}
+                    <img alt="Standort vom Schloss Henneckenrode" src="/schloss-map.svg"/>
                 </div>
             </div>
         </div>
