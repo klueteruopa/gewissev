@@ -68,6 +68,10 @@
           .map {
             width: 90%;
             display: flex;
+
+            img {
+              width: 100%;
+            }
           }
 
           @media (min-width: $breakpoint-tablet) {
