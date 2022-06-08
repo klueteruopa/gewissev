@@ -6,7 +6,7 @@ const Footer = () => {
             <div>
                 <div>
                     <h3>Kontakt</h3>
-                    <p>mail@gewissev.de</p>
+                    <p>info@gewiss-ev.eu</p>
                 </div>
                 <div>
                     <h3>Impressum</h3>
@@ -14,7 +14,7 @@ const Footer = () => {
                     <p>Bischhof-Gerhard-Str. 11, 31139 Hildesheim</p>
                     <h4>Gemeinschaftlich Vertretungsberechtigt:</h4>
                     <p>Julian Franke (1. Vorsitzender)<br/>
-                    E-Mail: Franken.julian@web.de<br/>
+                    E-Mail: franken.julian@web.de<br/>
                     Tel.: 0177 9412704</p>
                     <p>Anna Knetsch (2. Vorsitzende)</p>
                     <p>Vera Lemke (Schriftführerin)</p>

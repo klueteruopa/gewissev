@@ -19,7 +19,7 @@ const LeitsatzItem = ({ highlights, direction, text, image }: ContainerProps) =>
             </div>
             <div className={styles.image}>
                 <div>
-                    <img alt="Wir sind Gewiss e.V." src={image}/>
+                    <img alt="Leitsatz Icon" src={image}/>
                 </div>
             </div>
         </div>
