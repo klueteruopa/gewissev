@@ -10,7 +10,6 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@fontsource/lexend-deca": "^4.5.7",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
