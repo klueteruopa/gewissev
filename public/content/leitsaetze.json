@@ -3,7 +3,7 @@
     {
       "id": 1,
       "direction": "left",
-      "text": "Gewiss ist eine Vielfalt liebende Gemeinschaft, die einen Raum zur Selbstverwirklichung schaffen will. HALLO",
+      "text": "Gewiss ist eine Vielfalt liebende Gemeinschaft, die einen Raum zur Selbstverwirklichung schaffen will.",
       "image": "faust.svg"
     },
     {
@@ -23,6 +23,12 @@
       "direction": "right",
       "text": "Der achtsame Umgang mit unseren Mitmenschen, unserer Umwelt und uns selbst ist uns sehr wichtig.",
       "image": "blume.svg"
+    },
+    {
+      "id": 5,
+      "direction": "left",
+      "text": "Das ist ein neuer Eintrag :)",
+      "image": "faust.svg"
     }
   ]
 }
