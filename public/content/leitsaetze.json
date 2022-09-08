@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "direction": "left",
+      "text": "Gewiss ist eine Vielfalt liebende Gemeinschaft, die einen Raum zur Selbstverwirklichung schaffen will.",
+      "image": "faust.svg"
+    },
+    {
+      "id": 2,
+      "direction": "right",
+      "text": "Wir möchten Strukturen schaffen, die Sicherheit stiften und unterschiedliche Lebensumstände berücksichtigen.",
+      "image": "struktur.svg"
+    },
+    {
+      "id": 3,
+      "direction": "left",
+      "text": "Die Strukturen soll auch gegenüber sich ändernden Anforderungen offen bleiben. Das erreichen wir durch gleichberechtigte Mitgestaltung.",
+      "image": "waage.svg"
+    },
+    {
+      "id": 4,
+      "direction": "right",
+      "text": "Der achtsame Umgang mit unseren Mitmenschen, unserer Umwelt und uns selbst ist uns sehr wichtig.",
+      "image": "blume.svg"
+    }
+  ]
+}
