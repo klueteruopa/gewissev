@@ -3,6 +3,7 @@
 .nav {
 
     position: fixed;
+    top: 0;
     background: transparent;
     display: flex;
     justify-content: flex-end;
@@ -21,12 +22,12 @@
     margin: 0 0.75rem;
     font-weight: 500;
     font-size: 1.2rem;
-    color: #000;
-    background: #fff;
-    padding: 0.4rem 0.6rem;
+    color: #fff;
+    background: $blue;
+    padding: 0.3rem 0.6rem;
 
     :hover {
-      text-decoration: underline wavy $blue;
+      text-decoration: underline wavy #000;
       text-underline-offset: 0.3rem;
     }
   }
