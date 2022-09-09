@@ -13,7 +13,7 @@ const Footer = () => {
                     <p>Gewiss - Generationen wohnen im Schloss e.V., Hildesheim</p>
                     <p>Bischhof-Gerhard-Str. 11, 31139 Hildesheim</p>
                     <h4>Gemeinschaftlich Vertretungsberechtigt:</h4>
-                    <p>Julian Franke (1. Vorsitzender)<br/>
+                    <p>Julian Franken (1. Vorsitzender)<br/>
                     E-Mail: franken.julian@web.de<br/>
                     Tel.: 0177 9412704</p>
                     <p>Anna Knetsch (2. Vorsitzende)</p>

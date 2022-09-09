@@ -4,8 +4,6 @@ import { items } from '../public/content/leitsaetze.json'
 
 const marks = ["Selbstverwirklichung"];
 
-console.log(items);
-
 const Leitsatz = () => {
     return (
         <div className={styles.leitsatz}>
