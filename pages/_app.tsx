@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <link rel="shortcut icon" href="/favicon.ico" />
       <title>Gewiss e.V.</title>
       <meta name="description" content="Wir sind der Verein <span>Gewiss e.V. Wir gestalten ein Projekt zum Wohnen, Leben und Arbeiten. Und das in Henneckenrode in der Region Hildesheim."></meta>
-      <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"></link>
     </Head>
     <Layout>
       <Component {...pageProps} />
