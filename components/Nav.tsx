@@ -5,11 +5,8 @@ const Nav = () => {
     return (
         <nav className={styles.nav}>
             <ul>
-                <li><Link href='/'>Projekt</Link></li>
-                <li><Link href='/verein'>Verein</Link></li>
-                <li><Link href='/schloss'>Schloss</Link></li>
+                <li><Link href='/'>Start</Link></li>
                 <li><Link href='/news'>News</Link></li>
-                <li><Link href='/news'>Mitmachen</Link></li>
             </ul>
         </nav>
     )

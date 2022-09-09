@@ -1,5 +1,5 @@
 import styles from '../styles/Layout.module.scss'
-import { Header } from './Header'
+import { Nav } from './Nav'
 import { Footer } from './Footer'
 
 const Layout = ({ children } : any) => {
@@ -7,6 +7,7 @@ const Layout = ({ children } : any) => {
     
     return (
         <div className={styles.container}>
+            <Nav/>
             <main>
                 {children}
             </main>

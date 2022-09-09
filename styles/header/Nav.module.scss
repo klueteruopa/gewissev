@@ -2,6 +2,11 @@
 
 .nav {
 
+  background: $main-red;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -11,20 +16,19 @@
   li {
     display: inline;
     margin: 0 0.75rem;
-    font-family: $logo-font;
     font-weight: 500;
     font-size: 1rem;
     color: #000;
 
     :hover {
-      text-decoration: underline wavy lightcoral;
+      text-decoration: underline wavy $blue;
       text-underline-offset: 0.3rem;
     }
   }
 
 }
 
-@media (max-width: $breakpoint-medium) {
+/*@media (max-width: $breakpoint-tablet) {
   .nav {
     position: fixed;
     top: 0;
@@ -44,4 +48,4 @@
       font-size: 1.5rem;
     }
   }
-}
+}*/
