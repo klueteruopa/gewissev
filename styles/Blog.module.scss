@@ -8,6 +8,28 @@
   align-items: center;
   margin: 1rem 0rem;
 
+  .blogItem {
+    border: 4px solid $sub-blue;
+    padding: 0.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    max-width: $breakpoint-tablet;
+
+    p {
+      margin: 0.5rem 0rem;
+    }
+
+    span {
+      background: $sub-blue;
+      padding: 0.2rem 0.4rem;
+    }
+
+  }
+
+  .blogItem:hover {
+    border: 4px solid $blue;
+  }
+
   h3 {
     font-size: 1.4rem;
     color: $blue;

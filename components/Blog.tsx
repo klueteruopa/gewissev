@@ -9,11 +9,11 @@ const Blog = () => {
         <div className={styles.blog}>
             <h3>Neuigkeiten</h3>
             {items.slice(0).reverse().map((item) => (
-                <div key={item.datum}>
+                <div className={styles.blogItem} key={item.datum}>
                     <p>{item.datum}</p>
                     <h2>{item.ueberschrift}</h2>
                     <p>{item.teaser}</p>
-                    <span>weiter lesen</span>
+                    <span>(...)</span>
                 </div>
             ))}
         </div>
