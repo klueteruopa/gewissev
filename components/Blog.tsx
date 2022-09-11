@@ -14,6 +14,11 @@ const Blog = () => {
         setShowNewsItem(true);
     }
 
+    function closeNewsItem() {
+        setActiveItem(0);
+        setShowNewsItem(false);
+    }
+
     /*
     useEffect(() => {
         if (showNewsItem) {
@@ -21,24 +26,29 @@ const Blog = () => {
         }
     }, [showNewsItem]);
     */
-   
+
     return (
         <>
-        {showNewsItem ? (
-            <BlogItem id={activeItem} />
-        ) : (
-            <div className={styles.blog}>
-            <h3>Neuigkeiten</h3>
-            {items.slice(0).reverse().map((item) => (
-                <div className={styles.blogItem} key={item.datum} onClick={() => openNewsItem(item.id)}>
-                    <p>{item.datum}</p>
-                    <h2>{item.ueberschrift}</h2>
-                    <p>{item.teaser}</p>
-                    <span>(...)</span>
-                </div>
-            ))}
-            </div>
-        )}
+        <div className={styles.blog}>
+            {showNewsItem ? (
+                <>
+                    <div className={styles.close} onClick={() => closeNewsItem()}>X</div>
+                    <BlogItem id={activeItem} />
+                </>
+            ) : (
+                <>
+                <h3>Neuigkeiten</h3>
+                {items.slice(0).reverse().map((item) => (
+                    <div className={styles.blogItem} key={item.datum} onClick={() => openNewsItem(item.id)}>
+                        <p>{item.datum}</p>
+                        <h2>{item.ueberschrift}</h2>
+                        <p>{item.teaser}</p>
+                        <span>(...)</span>
+                    </div>
+                ))}
+                </>
+            )}
+        </div>
         </>
     )
 }

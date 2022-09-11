@@ -7,6 +7,18 @@
   flex-direction: column;
   align-items: center;
   margin: 4rem 0rem;
+  position: relative;
+
+  .close {
+    height: 40px;
+    width: 40px;
+    background: $blue;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .blogItem {
     border: 4px solid $sub-blue;
