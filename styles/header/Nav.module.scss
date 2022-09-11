@@ -4,9 +4,9 @@
 
     position: fixed;
     top: 0;
-    background: transparent;
+    background: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 1rem;
     width: 100%;
     z-index: 1000;
@@ -22,8 +22,7 @@
     margin: 0 0.75rem;
     font-weight: 500;
     font-size: 1.2rem;
-    color: #fff;
-    background: $blue;
+    color: $blue;
     padding: 0.3rem 0.6rem;
 
     :hover {
