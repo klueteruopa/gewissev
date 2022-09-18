@@ -139,6 +139,30 @@
           "content": "für gewiss e.V."
         }
       ]
+    },
+    {
+      "id": 7,
+      "datum": "11. September 2022",
+      "ueberschrift": "Mitglied werden in der Kerngruppe",
+      "teaser": "Folgende Punkte sind notwendig, um Teil der Kerngruppe zu werden und damit an Entscheidungen im Projektentwicklungsprozess teilhaben zu können.",
+      "text": [
+        {
+          "typ": "absatz",
+          "content": "Eimalige Teilnahme an Info-Abend: immer am ersten Montag des Monats oder anderer Veranstaltung (z.B. Schloss-Wochenende)"
+        },
+        {
+          "typ": "absatz",
+          "content": "Drei Mal an Montags-Treffen teilnehmen: Die Montags-Treffen finden jeden Montagabend virtuell statt. Für die genaue Zeit und den Zugangslink, schickt und bitte eine Email an info@gewiss-ev.eu."
+        },
+        {
+          "typ": "absatz",
+          "content": "Antrag auf Aufnahme stellen, der folgende Informationen beinhalten darf: Was stellst du dir vor? Was wünschst du dir? Was möchtest du einbringen? Was müssen wir über dich wissen? Der Antrag sollte schriftlich an info@gewiss-ev.eu geschickt werden. Außerdem solltest Du Dich zu unserem Werte- und Haltungspapier (News vom 21.08.2022) committen können."
+        },
+        {
+          "typ": "absatz",
+          "content": "Anschließend entscheidet die Kerngruppe über Deine Aufnahme und meldet sich so schnell wie möglich bei Dir."
+        }
+      ]
     }
   ]
 }
