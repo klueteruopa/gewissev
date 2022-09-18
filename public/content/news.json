@@ -28,7 +28,7 @@
         }
       ]
      },
-        {
+     {
       "id": 5,
       "datum": "01. August 2022",
       "ueberschrift": "Fusionierung mit der Projektgruppe \"Ändern-Leben-Jetzt\"",
@@ -45,6 +45,74 @@
         {
           "typ": "absatz",
           "content": "Wir sind uns inzwischen sehr sicher, dass wir von nun an gemeinsam an der Verwirklichung eines Wohnprojektes arbeiten wollen. Jetzt geht es mit vereinten Kräften an die Projektentwicklung und an die Realisierung unserer Träume!"
+        }
+      ]
+     },
+     {
+      "id": 5,
+      "datum": "21. August 2022",
+      "ueberschrift": "Gemeinsame Haltung und Werte",
+      "teaser": "Ein Ergebnis unseres bisherigen Gruppenprozesses ist das folgende Papier zum Thema \"gemeinsame Werte und Haltung\":",
+      "text": [
+        {
+          "typ": "header",
+          "content": "Folgendes beschreibt die Essenz des Projektes:"
+        },
+        {
+          "typ": "absatz",
+          "content": "Gewiss e.V. will einen Raum zur Selbstverwirklichung im Rahmen einer Vielfalt liebenden Gemeinschaft und innerhalb Sicherheit stiftender Strukturen schaffen, die unterschiedlichste Lebensumstände berücksichtigen und gegenüber sich ändernden Anforderungen durch gleichberechtigte Mitgestaltung offen bleiben. Der achtsame Umgang mit unseren Mitmenschen, unserer Umwelt und uns selbst ist uns sehr wichtig."
+        },
+        {
+          "typ": "header",
+          "content": "Basiswerte, auf denen die Gemeinschaft aufbau:"
+        },        
+        {
+          "typ": "absatz",
+          "content": "Unsere Gemeinschaft hat eine feministische Haltung inne. Das bedeutet sich dafür einzusetzen, dass alle Menschen die gleichen Rechte und Freiheiten haben sollen, unabhängig von ihrem Geschlecht, ihrer Sexualität, ihrer Ethnizität und ihrem Körper. Freiheiten hören da auf, wo Grenzen anderer anfangen."
+        },
+        {
+          "typ": "absatz",
+          "content": "Personen, die nationalsozialistisches Gedankengut vertreten oder eine rechtsextremistische Einstellung besitzen, sind nicht in unserer Gemeinschaft erwünscht. Wir sind nicht tolerant gegenüber rassistisch, sexistisch oder antisemitistisch motiviertem Verhalten."
+        },        
+        {
+          "typ": "absatz",
+          "content": "Wir wollen einen solidarischen, suffizienten, ökologischen Lebensstil im Rahmen der planetaren Belastungsgrenzen entwickeln, üben und uns dabei gegenseitig unterstützen. Unser Handeln und Wirtschaften soll dazu beitragen, dass nach uns kommende Generationen eine lebenswerte Umwelt erfahren. Dafür werden konkrete Maßnahmen getroffen. CO2 Neutralität ist ein Ziel, das wir uns setzen."
+        },
+        {
+          "typ": "absatz",
+          "content": "In einer pandemischen/ epidemischen Situation stehen Solidarität und das Schutzbedürfnis von Gemeinschaftsmitgliedern an oberster Stelle. Wir orientieren uns an der vorherrschenden wissenschaftlichen Meinung."
+        },        
+        {
+          "typ": "header",
+          "content": "Dazu committen wir uns:"
+        },
+        {
+          "typ": "absatz",
+          "content": "Ich bin bereit das Miteinander und die Gemeinschaft bewusst und aktiv mitzugestalten und kontinuierlich an gemeinschaftsfördernden Prozessen teilzunehmen. Hierzu zählt beispielsweise die Etablierung demokratischer Methoden der Entscheidungsfindung."
+        },        
+        {
+          "typ": "absatz",
+          "content": "Ich übe mich in Achtsamkeit und respektvollem Umgang mit anderen und der gesamten Umwelt, aber auch mit mir selbst, im Sinne einer Wertschätzungskultur."
+        },
+                {
+          "typ": "absatz",
+          "content": "Ich bin bereit gemeinsam konstruktive Wege der Kommunikation und Konfliktlösung zu beschreiten, über die eine schriftliche, mit allen abgestimmte Vereinbarung getroffen wird."
+        },
+        {
+          "typ": "absatz",
+          "content": "Ich bin bereit zu lernen, an mir zu arbeiten und Feedback anzunehmen."
+        },        
+        {
+          "typ": "absatz",
+          "content": "Ich bin bereit in der Gemeinschaft anfallende Aufgaben zu übernehmen und das Gemeinsame verantwortlich mitzutragen."
+        },
+        {
+          "typ": "absatz",
+          "content": "Ich bin bereit mit meinem Verhalten zu einer klimagerechteren Welt beizutragen."
+        },        
+        {
+          "typ": "absatz",
+          "content": "Ich bin bereit in meiner Kommunikation und meinem Verhalten Gewaltfreiheit anzustreben."
         }
       ]
      },
