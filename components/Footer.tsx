@@ -14,7 +14,7 @@ const Footer = () => {
                     <p>Bischhof-Gerhard-Str. 11, 31139 Hildesheim</p>
                     <h4>Gemeinschaftlich Vertretungsberechtigt:</h4>
                     <p>Julian Franken (1. Vorsitzender)<br/>
-                    E-Mail: franken.julian@web.de<br/>
+                    E-Mail: julian@gewiss-ev.eu<br/>
                     Tel.: 0177 9412704</p>
                     <p>Anna Knetsch (2. Vorsitzende)</p>
                     <p>Vera Lemke (Schriftführerin)</p>
