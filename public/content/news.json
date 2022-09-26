@@ -142,17 +142,21 @@
     },
     {
       "id": 7,
-      "datum": "11. September 2022",
-      "ueberschrift": "Mitglied werden in der Kerngruppe",
-      "teaser": "Folgende Punkte sind notwendig, um Teil der Kerngruppe zu werden und damit an Entscheidungen im Projektentwicklungsprozess teilhaben zu können.",
+      "datum": "26. September 2022",
+      "ueberschrift": "Beschluss: Prozess zum Mitglied werden in der Gemeinschaft (2. Version)",
+      "teaser": "Gemeinsam haben wir beschlossen, welche Punkte notwendig sind, um Teil der Gemeinschaft zu werden und damit an Entscheidungen im Projektentwicklungsprozess teilhaben zu können:",
       "text": [
         {
           "typ": "absatz",
-          "content": "Eimalige Teilnahme an Info-Abend: immer am ersten Montag des Monats oder anderer Veranstaltung (z.B. Schloss-Wochenende)"
+          "content": "Eimalige Teilnahme an Info-Abend oder anderer öffentlicher Veranstaltung (wie z. B. dem offenen Schloss-Wochenende: Die offenen Info-Abende finden immer am ersten Dienstag (Achtung: nicht mehr erster Montag) des Monats statt."
         },
         {
           "typ": "absatz",
-          "content": "Drei Mal an Montags-Treffen teilnehmen: Die Montags-Treffen finden jeden Montagabend virtuell statt. Für die genaue Zeit und den Zugangslink, schickt und bitte eine Email an info@gewiss-ev.eu."
+          "content": "Drei Mal an Dienstags-Treffen teilnehmen: Die Dienstags-Treffen finden jeden Dienstagabend virtuell statt. Für die genaue Zeit und den Zugangslink, schickt und bitte eine Email an info@gewiss-ev.eu. In diesen Treffen werden keine projektrelevanten Entscheidungen getroffen, sondern es geht um die Weiterentwicklung der Gemeinschaft."
+        },
+        {
+          "typ": "absatz",
+          "content": "Bilateraler Austausch mit Einzelnen Mitgliedern: Um sich gegenseitig besser kennenzulernen und damit wir schon im Vorfeld einige Eurer Fragen beantwortet können, solltet Ihr während des Aufnahmeprozesses Kontakt zu Einzelnen von uns aufnehmen."
         },
         {
           "typ": "absatz",
@@ -160,7 +164,7 @@
         },
         {
           "typ": "absatz",
-          "content": "Anschließend entscheidet die Kerngruppe über Deine Aufnahme und meldet sich so schnell wie möglich bei Dir."
+          "content": "Anschließend entscheidet die Gemeinschaft über Eure Aufnahme und meldet sich so schnell wie möglich bei Euch."
         }
       ]
     }
