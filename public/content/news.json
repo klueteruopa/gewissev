@@ -147,6 +147,10 @@
       "teaser": "Gemeinsam haben wir beschlossen, welche Punkte notwendig sind, um Teil der Gemeinschaft zu werden und damit an Entscheidungen im Projektentwicklungsprozess teilhaben zu können:",
       "text": [
         {
+          "typ": "header",
+          "content": "Achtung: Nach Durchführung der ersten Testphase wurde beschlossen, dass der Annäherungsprozess in seiner jetzigen Form einer Überarbeitung bedarf."
+        },
+        {
           "typ": "absatz",
           "content": "Eimalige Teilnahme an Info-Abend oder anderer öffentlicher Veranstaltung (wie z. B. dem offenen Schloss-Wochenende: Die offenen Info-Abende finden immer am ersten Dienstag (Achtung: nicht mehr erster Montag) des Monats statt."
         },
@@ -170,7 +174,7 @@
     },
     {
       "id": 8,
-      "datum": "24. Jamuar 2023",
+      "datum": "24. Januar 2023",
       "ueberschrift": "Erster Entwurf des Nutzungskonzeptes",
       "teaser": "Ende 2022 haben wir einen ersten Entwurf unseres Nutzungskonzeptes erstellt. Er beschreibt die Themenfelder, die uns bei der Umsetzung des Projektes wichtig sind und rahmt die ideologische Ausrichtung des Projektes.",
       "text": [
