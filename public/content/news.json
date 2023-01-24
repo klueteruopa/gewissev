@@ -167,6 +167,18 @@
           "content": "Anschließend entscheidet die Gemeinschaft über Eure Aufnahme und meldet sich so schnell wie möglich bei Euch."
         }
       ]
+    },
+    {
+      "id": 8,
+      "datum": "24. Jamuar 2023",
+      "ueberschrift": "Erster Entwurf des Nutzungskonzeptes",
+      "teaser": "Ende 2022 haben wir einen ersten Entwurf unseres Nutzungskonzeptes erstellt. Er beschreibt die Themenfelder, die uns bei der Umsetzung des Projektes wichtig sind und rahmt die ideologische Ausrichtung des Projektes.",
+      "text": [
+        {
+          "typ": "absatz",
+          "content": "Hier ist der Link zum Download: https://wechange.de/project/gewiss-2/file/nutzungskonzept-schloss-henneckenrode-16122/download/Nutzungskonzept-Schloss-Henneckenrode-16.12.22.pdf"
+        }
+      ]
     }
   ]
 }
