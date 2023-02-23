@@ -183,6 +183,18 @@
           "content": "Hier ist der Link zum Download: https://wechange.de/project/gewiss-2/file/nutzungskonzept-schloss-henneckenrode-16122/download/Nutzungskonzept-Schloss-Henneckenrode-16.12.22.pdf"
         }
       ]
+    },
+    {
+      "id": 9,
+      "datum": "24. Januar 2023",
+      "ueberschrift": "Einladung offener Schloss-Nachmittag",
+      "teaser": "Am 25.02.2023 ab 14 Uhr treffen wir uns vor Ort am Schloss Henneckenrode.",
+      "text": [
+        {
+          "typ": "absatz",
+          "content": "Hier könnt Ihr uns, das Projekt, das Schloss und das Gelände kennenlernen. Schaut gerne vorbei!"
+        }
+      ]
     }
   ]
 }
