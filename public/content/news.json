@@ -211,6 +211,22 @@
           "content": "Es wird ein buntes Programm und Raum zum Erleben und Begegnen geben. Wir freuen uns auf gemeinsame Stunden und wer kann und möchte darf gern einen Beitrag zum Mitmach-Buffett beisteuern."
         }
       ]
+    },
+    {
+      "id": 11,
+      "datum": "25. Juni 2023",
+      "ueberschrift": "Einladung zu offenen Schlossnachmittagen im Juli und September",
+      "teaser": "Am 09.07. und 03.09.2023 jeweils ab 14 Uhr am Schloss Henneckenrode.",
+      "text": [
+        {
+          "typ": "absatz",
+          "content": "Herzlich laden wir Interessierte an Gemeinschaft, am Projekt und am Schloss ein zu unseren offenen Schlossnachmittagen nach Henneckenrode zu kommen und uns, das Schloss und das Gelände (besser) kennen zu lernen. Die Termine sind der 9.7.2023 und der 3.9.2023 jeweils ab 14 Uhr."
+        },
+        {
+          "typ": "absatz",
+          "content": "Es wird jeweils einen Rundgang um 14.30 Uhr und eine Gesprächsrunde gegen 16 Uhr sowie Raum zum Erleben und Begegnen geben. Wir freuen uns auf gemeinsame Stunden und wer kann und möchte darf gern einen Beitrag zum Mitmach-Buffett beisteuern."
+        }
+      ]
     }
   ]
 }
